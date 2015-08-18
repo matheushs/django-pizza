@@ -10,4 +10,5 @@ orders = [
 ]
 
 for order in orders:
-    print('Name: {0}, Flavor: {1}'.format(order['name'], order['flavor'])) 
+    s = 'Nome: {}\nSabor: {}'
+    print(s.format(order['name'], order['flavor'])) 
