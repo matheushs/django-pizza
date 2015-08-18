@@ -1,4 +1,4 @@
-orders = [ 
+orders = [
     {
         'name': 'Mario',
         'flavor': 'Pepperoni'
@@ -11,4 +11,4 @@ orders = [
 
 for order in orders:
     s = 'Nome: {}\nSabor: {}'
-    print(s.format(order['name'], order['flavor'])) 
+    print(s.format(order['name'], order['flavor']))
